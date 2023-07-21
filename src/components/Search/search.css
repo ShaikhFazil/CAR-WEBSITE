@@ -1,0 +1,56 @@
+:root{
+    --primaryColor : #7a63f1;
+    --secondaryColor : #ebe8fc;
+    --textColor : #a3a3a3;
+--greyColor: #f4f4f4;
+--whiteColor: #f5f4fa;
+--blackColor : #434344;
+
+}
+
+
+.search{
+    padding: 2rem 0;
+    .title{
+        color: var(--blackColor);
+        font-size: 23px;
+        padding: 1rem 0;
+        text-align: center;
+        font-weight: 700;
+        line-height: 1.7rem;
+        align-items: center;
+    }
+
+    .searchdiv{
+        margin-left: 20%;
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        width: 80%;
+        gap: 0.5rem;
+        align-items: center;
+    }
+
+    }
+    input{
+        border-radius: 10px;
+        border: 1px solid var(--secondaryColor);
+         padding: 10px 10px;
+         outline: none;
+    }
+
+    input:focus{
+        border: none;
+        border: 1px solid var(--primaryColor);
+    }
+
+
+.btn3{
+    gap: 0.3rem;
+    border-radius: 10px;
+    padding: 5px 10px;
+    outline: none;
+    border: none;
+}
+.icon{
+    color: #434344;
+}

@@ -1,0 +1,66 @@
+:root{
+    --primaryColor : #7a63f1;
+    --secondaryColor : #ebe8fc;
+    --textColor : #a3a3a3;
+--greyColor: #f4f4f4;
+--whiteColor: #f5f4fa;
+--blackColor : #434344;
+
+}
+
+.seller{
+    margin-top: 50px;
+    background: var(--greyColor);
+}
+.seecontainer{
+    margin: 2rem inherit;
+}
+
+.sellercontainer{
+    grid-template-columns: repeat(3,1fr);
+    .singleseller{
+        padding: .5rem 0;
+        border-radius: 3px;
+        gap: 1rem;
+        transition: .3s ease-in-out;
+    }
+}
+
+.imgdiv2{
+    width: 600px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+  
+}
+
+.info{
+    text-align: center;
+    margin-right: 270px;
+}
+
+.logoseller {
+    border-radius: 10px;
+   
+}
+
+
+img{
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+    background: rgb(237,237,237);
+    border-radius: 3px;
+}
+
+img:hover{
+    width: 70%;
+    height: auto;
+    object-fit: cover;
+    background: rgb(237,237,237);
+    border-radius: 3px;
+}
+
+
+
+
